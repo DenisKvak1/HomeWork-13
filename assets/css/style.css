@@ -6,15 +6,13 @@
     margin-right: auto;
     grid-template-rows: auto 1fr auto;
 }
-div{
-    border: 0.5px dashed red;
-}
+
 a{
     text-decoration: none;
     color: black;
 }
-main{
-    width: 92%;
+main,.footer__footer div,.footer__main{
+    width: 94%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,19 +41,21 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
-.footer__footer div{
-    width: 92%;
-    margin-left: auto;
-    margin-right: auto;
+header{
+    padding: 15px;
+    border-bottom: 2px solid #F4F4F4;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 .header__main{
     display: flex;
+    margin-top: 12px;
 }
 .header__main a:not(.header__main__LastA){
     flex-grow: 1;
 }
 .header__main__LastA{
-    flex-grow: 12;
+    flex-grow: 40;
 }
 
 .main__head__head{
@@ -124,11 +124,6 @@ main{
     display: flex;
     justify-content: center;
     gap: 7px;
-}
-.footer__main{
-    width: 92%;
-    margin-left: auto;
-    margin-right: auto;
 }
 .About{
     grid-area: About;
@@ -200,4 +195,26 @@ main{
     "Delivery Returns Gift_Vouchers Order_History"
     "Privacy_Policy Site_Map Affiliates Wish_List"
     "Terms_Conditions . Specials Newsletter";
+}
+.main__head__head{
+    background-color: #2D2D2D;
+    padding: 1% 2%;
+}
+.main__head__head a{
+    color: #808080;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main__head__head a:first-child{
+    color: white;
+}
+.header__h1__span{
+    color: #BCBCBC;
+}
+header a, header a span{
+    color: #828282;
+    font-size: 16px;
+}
+header a:first-child{
+    color: black;
 }

@@ -253,6 +253,9 @@ header a:first-child{
     color: white;
     border: none;
 }
+.About__none{
+    border-bottom: 1px solid #F4F4F4;
+}
 .footer__main a:not(.About__none){
     color: #9B9B9B;
     border-bottom: 1px solid #F4F4F4;

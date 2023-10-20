@@ -6,7 +6,9 @@
     margin-right: auto;
     grid-template-rows: auto 1fr auto;
 }
-
+div{
+    border: 0.5px dashed red;
+}
 a{
     text-decoration: none;
     color: black;
@@ -114,4 +116,75 @@ main{
     display: flex;
     justify-content: center;
     gap: 7px;
+}
+.About{
+    grid-area: About;
+}
+.Contact_Us{
+    grid-area: Contact_Us;
+}
+.Brands{
+    grid-area: Brands;
+}
+.My_Account{
+    grid-area: My_Account;
+}
+.Delivery{
+    grid-area: Delivery;
+}
+.Privacy_Policy{
+    grid-area: Privacy_Policy;
+}
+.Terms_Conditions{
+    grid-area: Terms_Conditions;
+}
+.Returns{
+    grid-area: Returns;
+}
+.Site_Map{
+    grid-area: Site_Map;
+}
+.Gift_Vouchers{
+    grid-area: Newsletter;
+}
+.Affiliates{
+    grid-area: Affiliates;
+}
+.Specials{
+    grid-area: Specials;
+}
+.My_Account{
+    grid-area: My_Account;
+}
+.My_Account2{
+    grid-area: My_Account2;
+}
+.Order_History{
+    grid-area: Order_History;
+}
+.Wish_List{
+    grid-area: Wish_List;
+}
+.Newsletter{
+    grid-area: Newsletter;
+}
+.Extras{
+    grid-area: Extras;
+}
+.Customer_Service{
+    grid-area: Customer_Service;
+}
+.Information{
+    grid-area: Information;
+}
+.footer__main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    "Information Customer_Service Extras My_Account2"
+    "About Contact_Us Brands My_Account"
+    "Delivery Returns Gift Order_History"
+    "Privacy_Policy Site_Map Affiliates Wish_List"
+    "TTerms_Conditions . Specials Newsletter";
 }

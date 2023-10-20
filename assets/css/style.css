@@ -97,6 +97,7 @@ header{
     row-gap: 30px
 }
 .main__head__footer__card {
+    padding: 10px;
     height: 200px;
     display: flex;
     flex-direction: column;

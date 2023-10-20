@@ -31,6 +31,9 @@ main{
     column-gap: 2%;
     row-gap: 50px;
 }
+.footer__head__card{
+    padding: 20px 20px;
+}
 .footer{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -38,8 +41,13 @@ main{
 .footer__head{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
 }
-
+.footer__footer div{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header__main{
     display: flex;
 }
@@ -117,6 +125,11 @@ main{
     justify-content: center;
     gap: 7px;
 }
+.footer__main{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .About{
     grid-area: About;
 }
@@ -145,7 +158,7 @@ main{
     grid-area: Site_Map;
 }
 .Gift_Vouchers{
-    grid-area: Newsletter;
+    grid-area: Gift_Vouchers;
 }
 .Affiliates{
     grid-area: Affiliates;
@@ -184,7 +197,7 @@ main{
     grid-template-areas: 
     "Information Customer_Service Extras My_Account2"
     "About Contact_Us Brands My_Account"
-    "Delivery Returns Gift Order_History"
+    "Delivery Returns Gift_Vouchers Order_History"
     "Privacy_Policy Site_Map Affiliates Wish_List"
     "Terms_Conditions . Specials Newsletter";
 }

@@ -1,8 +1,39 @@
 .wrap{
     display: grid;
-    width: 1250px;
+    width: 65vw;
     height: 100vh;
     margin-left: auto;
     margin-right: auto;
     grid-template-rows: minmax(auto, auto) 1fr minmax(auto, auto);
+}
+main{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    border: 0.7px dashed red; 
+}
+.header__main{
+    display: flex;
+}
+.main__head__head{
+    display: flex;
+}
+.main__head__footer{
+    display: flex;
+}
+.main__content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 50px;
+}
+.footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.footer__head{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }

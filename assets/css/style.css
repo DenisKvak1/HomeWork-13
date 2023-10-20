@@ -237,6 +237,9 @@ header a:first-child{
 .footer__head__card1 h4, .footer__head__card1 h6{
     color: #F7F7F7;
 }
+.footer__head__card2 h6{
+    color: #8E8E8E;
+}
 .low-price{
     text-decoration:line-through;
     color: grey;

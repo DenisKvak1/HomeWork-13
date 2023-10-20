@@ -253,13 +253,14 @@ header a:first-child{
     color: white;
     border: none;
 }
-.About__none{
-    border-bottom: 1px solid #F4F4F4;
-}
-.footer__main a:not(.About__none){
+
+.footer__main a{
     color: #9B9B9B;
     border-bottom: 1px solid #F4F4F4;
     padding: 8px 0;
+}
+.wrap footer .About__none{
+    color: black;
 }
 .footer__footer{
     background-color: #2D2D2D;

@@ -1,22 +1,24 @@
 .wrap{
     display: grid;
     width: 65vw;
-    height: 100vh;
+    min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
-    grid-template-rows: minmax(auto, auto) 1fr minmax(auto, auto);
+    grid-template-rows: auto 1fr auto;
+}
+main{
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 main{
     width: 92%;
     margin-left: auto;
     margin-right: auto;
 }
-div{
-    border: 0.7px dashed red; 
-}
-.header__main{
-    display: flex;
-}
+
 .main__head__head{
     display: flex;
 }
@@ -26,7 +28,7 @@ div{
 .main__content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
+    column-gap: 2%;
     row-gap: 50px;
 }
 .footer{
@@ -36,4 +38,75 @@ div{
 .footer__head{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header__main{
+    display: flex;
+}
+.header__main a:not(.header__main__LastA){
+    flex-grow: 1;
+}
+.header__main__LastA{
+    flex-grow: 12;
+}
+
+.main__head__head{
+    display: flex;
+}
+.main__head__head a:not(.main__head__head__LastA){
+    flex-grow: 1;
+}
+.main__head__head__LastA{
+    flex-grow: 25;
+}
+.main__head__head__img__wrap img{
+    width: 100%;
+}
+.main__head__main{
+    grid-area: main__head__main;
+}
+.main__head__footer__card1{
+    grid-area: main__head__footer__card1;
+}
+.main__head__footer__card2{
+    grid-area: main__head__footer__card2;
+}
+.main__head__footer__card3{
+    grid-area: main__head__footer__card3;
+}
+.main__head{
+    display: grid;
+    grid-template-areas:
+    "main__head__main main__head__main main__head__main"
+    "main__head__footer__card1 main__head__footer__card2 main__head__footer__card3";
+    column-gap: 3.5%;
+}
+.main__head__footer__card {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main__content__card {
+    text-align: center;
+}
+.main__content__card img{
+    height: 200px;
+}
+.main__head__footer__card img{
+    background-size: cover;
+}
+.main__head__footer__card1{
+    background-image: url("../images/HandBags.jpg");
+}
+.main__head__footer__card2{
+    background-image: url("../images/Shoes.jpg");
+}
+.main__head__footer__card3{
+    background-image: url("../images/Watch.jpg");
+}
+.card-price{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
 }

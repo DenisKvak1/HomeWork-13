@@ -4,9 +4,7 @@
     grid-template-rows: auto 1fr auto;
     min-width: 375px;
 }
-div{
-    border: 1px dashed red;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -290,9 +288,13 @@ header a:first-child{
         "main__head__footer__card2"
         "main__head__footer__card3";
     }
-    .main, .footer__footer div, .footer__main{
+    main, .footer__footer div, .footer__main{
         width: 100%;
         margin:0;
+    }
+    header{
+        padding: 8px 0px ;
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 459px) {

@@ -297,7 +297,7 @@ header a:first-child{
         margin-bottom: 10px;
     }
     .footer__main{
-        max-height: 230px;
+        max-height: 240px;
     }
 }
 @media (max-width: 459px) {

@@ -2,6 +2,7 @@
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+    min-width: 375px;
 }
 div{
     border: 1px dashed red;
@@ -277,12 +278,28 @@ header a:first-child{
     .main__content {
         grid-template-columns: repeat(2, 1fr);
     }
-    .main__head__head a{
-        font-size: 16px;
+    html, html a,html span, html .main__head a{
+        font-size: 90%;
     }
   }
+@media (max-width: 576px) {
+    .main__head{
+        grid-template-areas:
+        "main__head__main"
+        "main__head__footer__card1"
+        "main__head__footer__card2"
+        "main__head__footer__card3";
+    }
+    .main, .footer__footer div, .footer__main{
+        width: 100%;
+        margin:0;
+    }
+}
 @media (max-width: 459px) {
     .main__content {
         grid-template-columns: repeat(1, 1fr);
+    }
+    html, html a,html span, html .main__head a{
+        font-size: 80%;
     }
   }

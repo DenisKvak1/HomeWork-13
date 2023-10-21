@@ -75,6 +75,11 @@ header{
 }
 .main__head__head__img__wrap img{
     width: 100%;
+    filter: grayscale(50%);
+}
+.main__head__head__img__wrap img:hover{
+    width: 100%;
+    filter: grayscale(0%);
 }
 .main__head__main{
     grid-area: main__head__main;

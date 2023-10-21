@@ -225,7 +225,7 @@ header{
 .header__h1__span{
     color: #BCBCBC;
 }
-header a, header span{
+header a, header .header__main span{
     color: #828282;
     font-size: 16px;
 }

@@ -76,6 +76,7 @@ header{
 .main__head__head__img__wrap img{
     width: 100%;
     filter: grayscale(50%);
+    transition: 1.5s;
 }
 .main__head__head__img__wrap img:hover{
     width: 100%;

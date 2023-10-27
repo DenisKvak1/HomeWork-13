@@ -301,6 +301,9 @@ header a:first-child{
     #main__hedaer__nav .navbar-collapse{
         font-size: 18px;
     }
+    .footer__main{
+        height: 290px;
+    }
   }
 @media (max-width: 576px) {
     .main__head{
@@ -319,7 +322,7 @@ header a:first-child{
         margin-bottom: 10px;
     }
     .footer__main{
-        max-height: 240px;
+        max-height: 265px;
         padding: 1.5%;
     }
     header h1{
@@ -331,6 +334,6 @@ header a:first-child{
         grid-template-columns: repeat(1, 1fr);
     }
     .footer__main{
-        max-height: 270px;
+        max-height: 300px;
     }
   }

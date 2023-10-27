@@ -80,13 +80,6 @@ header{
     display: flex;
     margin-top: 12px;
 }
-.header__main a:not(.header__main__LastA),.header__main span{
-    flex-grow: 1;
-}
-.header__main__LastA{
-    flex-grow: 40;
-}
-
 .main__head__head a:not(.main__head__head__LastA){
     flex-grow: 1;
 }
@@ -229,16 +222,8 @@ header{
     "Terms_Conditions . Specials Newsletter";
     padding: 30px 0;
 }
-.header__h1__span{
-    color: #BCBCBC;
-}
-header a, header .header__main span{
-    color: #828282;
-    font-size: 16px;
-}
-header a:first-child{
-    color: black;
-}
+
+
 .main__head__footer__card2 p,.main__head__footer__card2 h3{
     color: white;
     font-weight: 600;

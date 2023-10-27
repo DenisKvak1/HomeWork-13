@@ -316,6 +316,10 @@ header{
         "Delivery Returns Gift_Vouchers Order_History"
         "Privacy_Policy Site_Map Affiliates Wish_List"
         "Terms_Conditions . Specials Newsletter";
+        
+    }
+    .Extras, .My_Account2{
+        margin-top: 0px;
     }
   }
 
